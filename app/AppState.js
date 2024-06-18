@@ -6,6 +6,7 @@ class ObservableAppState extends EventEmitter {
 
 
   examples = []
+  /**@type {Snack[]} */
   snacks = [
     new Snack({
       name: 'Feastable',
