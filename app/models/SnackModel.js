@@ -6,9 +6,9 @@ export class Snack {
   }
   get someHTMLTemplate() {
     return `
-    <div class="col-4">
+    <div class="col-4 my-2">
             <div>
-              <div class="card text-center bg-dark text-light" onclick="app.SnacksController.buySnack('${this.name})"
+              <div class="card text-center bg-dark text-light" onclick="app.SnacksController.buySnack('${this.name}')"
                 role="button">
                 <img class="card-img-top" src="${this.imgUrl}"
                   alt="Title" />

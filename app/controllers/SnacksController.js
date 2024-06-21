@@ -10,7 +10,7 @@ export class SnacksController {
     this.drawSnacks()
   };
   buySnack(SnackName) {
-    const snack = AppState.snacks.find((snack) => snack.name = SnackName)
+    const snack = AppState.snacks.find((snack) => snack.name == SnackName)
     boughtSnack.buySnack(snack)
   }
   drawSnacks() {
